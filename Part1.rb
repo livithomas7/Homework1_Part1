@@ -5,7 +5,7 @@ def sum (array)
 end
 
 def max_2_sum(array)
-	return 0 if a.empty?
+	return 0 if array.empty?
 	return array[0] if array.length == 1
 	ar = array.sort
 	ar[-1] + ar[-2]
