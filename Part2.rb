@@ -1,6 +1,6 @@
+require 'ruby_intro.rb'
 def hello(name)
-  str = "Hello"
-  name.times do
-    str.concat(name)
-  end
+  str1 = name
+  str2 = "Hello, "
+  str2.concat(str1)
 end
